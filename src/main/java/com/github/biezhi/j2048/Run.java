@@ -6,13 +6,19 @@ import com.github.biezhi.j2048.entity.Tile;
 import com.github.biezhi.j2048.ui.MainFrame;
 import com.github.biezhi.j2048.ui.MainPanel;
 
+/**
+ * 2048游戏
+ * @author biezhi
+ *
+ */
 public class Run {
 
 	public static void main(String[] args) {
-		// 创建grid对象
+		
+		// 创建地图
 		Grid grid = new Grid();
 		
-		// 创建tile对象
+		// 创建方块
 		Tile tile = new Tile(grid);
 		
 		// 创建游戏主窗口

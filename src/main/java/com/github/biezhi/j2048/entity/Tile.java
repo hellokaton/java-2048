@@ -5,7 +5,7 @@ import java.util.Random;
 import javax.swing.JOptionPane;
 
 /**
- * 砖块对象
+ * 方块对象
  * @author biezhi
  *
  */

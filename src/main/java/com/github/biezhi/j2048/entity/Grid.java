@@ -1,5 +1,10 @@
 package com.github.biezhi.j2048.entity;
 
+/**
+ * 地图
+ * @author biezhi
+ *
+ */
 public class Grid {
 
 	private int num = 0;
@@ -7,11 +12,6 @@ public class Grid {
 	private int y;
 	private int[][] map = new int[4][4];
 
-	public Grid() {
-		this.x = 20;
-		this.y = 20;
-	}
-	
 	public int getNum() {
 		return num;
 	}
