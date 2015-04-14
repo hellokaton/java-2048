@@ -3,6 +3,7 @@ package com.github.biezhi.j2048.ui;
 import java.awt.Graphics;
 
 import com.github.biezhi.j2048.entity.Grid;
+import com.github.biezhi.j2048.entity.Images;
 
 public class MainFg {
 

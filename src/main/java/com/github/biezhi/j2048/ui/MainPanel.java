@@ -5,6 +5,9 @@ import java.awt.Graphics;
 import javax.swing.JPanel;
 
 import com.github.biezhi.j2048.entity.Grid;
+import com.github.biezhi.j2048.entity.Images;
+import com.github.biezhi.j2048.entity.Score;
+import com.github.biezhi.j2048.entity.Score_Num;
 import com.github.biezhi.j2048.entity.Tile;
 
 /**
@@ -37,8 +40,7 @@ public class MainPanel extends JPanel{
 		
 		this.scoreNum = new Score_Num(grid);
 		
-		g.drawImage(Images.img, 0, 0, null);
-		//g.drawImage(Images.img_bg, 0, 0, null);
+		g.drawImage(Images.img_bg, 0, 0, null);
 		
 		// 设置背景
 		this.mainFg.drawWin(g);
